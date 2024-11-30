@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> frome pages</title>
+    <style>
+         label{
+            display: block;
+             margin-bottom:10px ;
+         }
+    </style>
+     <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="bolog.html">bolog</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="tabel.html">table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <section>
+        <h2>please fill up the form</h2><form action="">
+            <label for="name">your name
+                <input placeholder="your name" type="text" name="name" id="name">
+            </label>
+            <label for="email">your email
+                <input placeholder="your email" type="email" name="email;" id="email">
+            </label>
+            <label for="phone">your phone
+                <input placeholder="your phone" type="phone" name=""phone id="phone">
+            </label>
+            <fieldset>
+                <legend>pick one pitha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">chitoy
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa">vapa
+                </label>
+                <label for="atarruti">
+                    <input type="radio" name="pitha" id="atarruti">atarruti
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>pick vorta</legend>
+                <label for="kaca moric">
+                    <input type="checkbox" name="vorta" id="kaca moric">kaca moric
+                </label>
+                <label for="dunia corta">
+                    <input type="checkbox" name="vorta" id="dunia corta">dunia corta
+                </label>
+                <label for="alo vorta">
+                    <input type="checkbox" name="vorta" id="alo vorta">alo vorta
+                </label>
+            </fieldset>
+            <fieldset>
+                  <legend>aspesal inestaction</legend>
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+
+        </form>
+
+       </section> 
+    </main>
+    <footer>
+    </footer>
+    
+</body>
+</html>

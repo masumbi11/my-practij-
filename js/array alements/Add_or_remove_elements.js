@@ -1,12 +1,12 @@
-let numbars=['amm', 'kathal', 'kla', 'appel', 'comla']
-console.log(numbars);
+let  frood=['amm', 'kathal', 'kla', 'appel', 'comla']
+console.log(frood);
 
- numbars.push('licu')
-console.log (numbars);
-numbars.push('gap', 'khajur')
-console.log(numbars);
-numbars.pop()
-console.log(numbars);
+frood.push('licu')
+console.log (frood);
+frood.push('gap', 'khajur')
+console.log(frood);
+frood.pop()
+console.log(frood);
 
 
 

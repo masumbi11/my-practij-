@@ -9,4 +9,3 @@ const num2 =200;
 
  (num1>num2)?console.log(num1*num2):console.log
  (num1+num2)
-// console.log(result) 
